@@ -1,0 +1,28 @@
+body{
+    background-color:whitesmoke;
+    font-family: sans-serif;
+    
+  }
+  hr{
+    height:2px;border-width:0;color:#Af4864;background-color:#Af4864;
+  }
+  body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,52 @@
+textarea{
+    width:400px;
+    height:150px;
+    resize:none;
+    border-color:#Af4864;
+    border-radius:10px;
+    font-size:15px;
+  }
+  input[type=text]{
+    width:400px;
+    height:40px;
+    font-size: 20px;
+    border-color:#Af4864;
+    border-radius:10px;
+  }
+  input[type=email]{
+    width:400px;
+    height:40px;
+    font-size: 20px;
+    border-color:#Af4864;
+    border-radius:10px;
+  }
+  input[type=tel]{
+    width:400px;
+    height:40px;
+    font-size: 20px;
+    border-color:#Af4864;
+    border-radius:10px;
+  }
+  .minis{
+    font-size:20px;
+  }
+  #bis{
+    font-size:40px;
+  }
+  .contactInfo{
+    display: flex;
+  }
+  .contact-information{
+    display:flex;
+    justify-content:space-around;
+    padding-bottom:20px;
+  }
+  @media(max-width:500px){
+    .contact-information{
+      display:flex;
+      flex-direction:column;
+    }
+    .my-contacts{
+      padding-bottom:20px;
+    }
+  }

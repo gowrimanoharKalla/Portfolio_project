@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.mini{
+  color:black;
+  text-align:center;
+  font-weight:bold;
+  padding:20px;
+}
+
+.line{
+  border-left: 10px white;
+}
+.bi{
+  color:#Af4864;
+  font-size:80px;
+}
+.skill-1{
+  text-align: center;
+}
+.languageName{
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+  padding-left:10px;
+  
+}
+#flex{
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items: center;
+}
+@media(max-width:500px){
+  #flex{
+    flex-direction:column;
+  }
+  .skill-1{
+    padding:10px;
+  }
+}
